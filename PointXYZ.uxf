@@ -1,0 +1,22 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>290</x><y>80</y><w>260</w><h>320</h></coordinates><panel_attributes>
+PointXYZ
+
+--
+-x: int
+-y: int
+-z: int
+--
++ PointXYZ()
++ PointXYZ(x: int, y: int, z: int)
+--
++ getX(): int
++ setX(x: int) void
+
++ getY(): int
++ setY(y: int) void
+
++ getZ(): int
++ setZ(z: int) void
+--
++ convertToString(): String
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
