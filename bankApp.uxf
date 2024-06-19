@@ -1,0 +1,41 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>150</x><y>400</y><w>230</w><h>190</h></coordinates><panel_attributes>
+OverfraftAccount
+
+--
+- ownerName: String
+- balanceAccount: double
+- overfraftLimit: double
+--
++ OverfraftAccount(String, double)
++ getBalance
++ withdraw(double): void
++ deposit: double
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>450</x><y>400</y><w>240</w><h>190</h></coordinates><panel_attributes>
+JointAccount
+
+--
+- owner1: String
+- owner2: String
+- balance: double
+--
++ JointAccount(String, String, double)
++ getBalance(): double
++ withdraw(double): void         
++ deposit(double): void </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>760</x><y>400</y><w>160</w><h>120</h></coordinates><panel_attributes> 
+Main
+ 
+--
++ main(String[]): void 
+
+--
+
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>450</y><w>100</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>80;10;10;40</additional_attributes></element><element><id>Relation</id><coordinates><x>680</x><y>440</y><w>100</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>80;30;50;10;10;40</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>660</x><y>200</y><w>110</w><h>80</h></coordinates><panel_attributes>Package Model
+--
+OverfraftAccount
+JointAccount
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>520</x><y>100</y><w>250</w><h>180</h></coordinates><panel_attributes>Package bankapp
+--
+Main
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
